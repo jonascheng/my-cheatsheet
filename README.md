@@ -10,6 +10,9 @@ This is personal cheatsheet to help my daily work.
 
 ## MySQL
 
+* Connect to server
+  * mysql -h [host] -P 3306 -u root -p
+
 ## Shellscript
 
 * Close a terminal without killing the command running in it. [Gist](https://gist.github.com/jonascheng/0c18b97378b3e375542538b77c1f2ec9)
