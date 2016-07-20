@@ -5,8 +5,12 @@ This is personal cheatsheet to help my daily work.
 ## AWS 
 
 * Install AWS CLI on OSX
-  * sudo pip install --upgrade pip                 # upgrade pip
-  * sudo pip install awscli --ignore-installed six 
+
+```shellscript
+sudo pip install --upgrade pip # upgrade pip
+sudo pip install awscli --ignore-installed six 
+```
+
 * To add new users in EC2 instance manually.
   * [Managing User Accounts on Your Linux Instance](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/managing-users.html)
 * 
