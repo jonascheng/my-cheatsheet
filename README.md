@@ -4,6 +4,14 @@ This is personal cheatsheet to help my daily work.
 
 ## AWS 
 
+* Frequent Used Region Code
+
+| Region Name	            | Region	        |
+| ----------------------- | -------------- |
+| US West (N. California) | us-west-1      |
+| US West (Oregon)	       | us-west-2	     |
+| Asia Pacific (Tokyo)	   | ap-northeast-1	|
+
 * Install AWS CLI on OSX
 
 ```shellscript
