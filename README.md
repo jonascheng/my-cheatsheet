@@ -31,4 +31,9 @@ sudo pip install awscli --ignore-installed six
 ## Shellscript
 
 * Close a terminal without killing the command running in it. [Gist](https://gist.github.com/jonascheng/0c18b97378b3e375542538b77c1f2ec9)
+* List files over 100MB
+
+```
+find . -type f -size +100M
+```
 
