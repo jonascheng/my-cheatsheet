@@ -26,7 +26,18 @@ sudo pip install awscli --ignore-installed six
 ## MySQL
 
 * Connect to server
-  * mysql -h [host] -P 3306 -u root -p
+
+```
+mysql -h [host] -P 3306 -u root -p # password is required
+use [database];
+```
+
+* Tables
+
+```
+show tables; # show all tables
+show table status; # show all table status
+```
 
 ## Shellscript
 
