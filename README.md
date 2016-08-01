@@ -4,6 +4,15 @@ This is personal cheatsheet to help my daily work.
 
 ## AWS 
 
+* Frequent Used AMI
+
+| Region Name    | AMI-ID       |
+| -------------- | ------------ |
+| us-west-1      | ami-e59bda85 |
+| ap-northeast-1 | ami-23b54e42 |
+
+[Amazon EC2 AMI Locator](https://cloud-images.ubuntu.com/locator/ec2/)
+
 * Frequent Used Region Code
 
 | Region Name	            | Region	        |
