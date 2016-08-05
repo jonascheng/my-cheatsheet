@@ -57,3 +57,9 @@ show table status; # show all table status
 find . -type f -size +100M
 ```
 
+## Git
+
+```
+# To bring your remote refs up to date
+git remote update
+```
