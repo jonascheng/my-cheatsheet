@@ -48,6 +48,14 @@ show tables; # show all tables
 show table status; # show all table status
 ```
 
+* Process
+
+```
+show [full] processlist;
+kill [Id]; # Kill the specific query
+CALL mysql.rds_kill(Id); # If permission denied, try this
+```
+
 ## Shellscript
 
 * Close a terminal without killing the command running in it. [Gist](https://gist.github.com/jonascheng/0c18b97378b3e375542538b77c1f2ec9)
