@@ -70,4 +70,7 @@ find . -type f -size +100M
 ```
 # To bring your remote refs up to date
 git remote update
+# Revert to specifit commit
+git reset --hard <old-commit-id>
+git push -f <remote-name> <branch-name>
 ```
