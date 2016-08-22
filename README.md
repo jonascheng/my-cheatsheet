@@ -59,9 +59,11 @@ CALL mysql.rds_kill(Id); # If permission denied, try this
 ## Shellscript
 
 * Close a terminal without killing the command running in it. [Gist](https://gist.github.com/jonascheng/0c18b97378b3e375542538b77c1f2ec9)
-* List files over 100MB
-
+* Misc.
 ```
+# Change default shell to zsh
+chsh -s /usr/local/bin/zsh
+# List files over 100MB
 find . -type f -size +100M
 ```
 
