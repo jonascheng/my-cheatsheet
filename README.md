@@ -19,7 +19,7 @@ This is personal cheatsheet to help my daily work.
 | ----------------------- | -------------- | --------------------- |
 | US West (N. California) | us-west-1      | us-west-1a 1b 1c      |
 | US West (Oregon)	       | us-west-2	     | us-west-2a 2b 2c      |
-| Asia Pacific (Tokyo)	   | ap-northeast-1	| ap-northeast-1a 1b 1c |
+| Asia Pacific (Tokyo)	   | ap-northeast-1	| ap-northeast-1a 1c    |
 
 * Install AWS CLI on OSX
 
