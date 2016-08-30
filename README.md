@@ -71,6 +71,8 @@ CALL mysql.rds_kill(Id); # If permission denied, try this
 chsh -s /usr/local/bin/zsh
 # List files over 100MB
 find . -type f -size +100M
+# List export environments
+printenv
 ```
 
 ## Git
