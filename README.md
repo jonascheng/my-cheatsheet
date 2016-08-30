@@ -30,7 +30,13 @@ sudo pip install awscli --ignore-installed six
 
 * To add new users in EC2 instance manually.
   * [Managing User Accounts on Your Linux Instance](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/managing-users.html)
-* 
+* Instance metadata url.
+
+```
+curl http://169.254.169.254/latest/meta-data/
+# If there is an IAM role associated with the instance at launch.
+curl http://169.254.169.254/latest/meta-data/iam/info
+```
 
 ## MySQL
 
