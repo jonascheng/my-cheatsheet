@@ -91,3 +91,12 @@ git remote update
 git reset --hard <old-commit-id>
 git push -f <remote-name> <branch-name>
 ```
+
+## Docker
+
+```
+# compose start or stop
+docker-compose [up|stop]
+# attach to running image
+docker exec -it <containerIdOrName> bin/bash
+```
