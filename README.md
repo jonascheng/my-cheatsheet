@@ -99,4 +99,8 @@ git push -f <remote-name> <branch-name>
 docker-compose [up|stop]
 # attach to running image
 docker exec -it <containerIdOrName> bin/bash
+# remove inactive images
+docker rmi -f $(docker images | grep "<none>" | awk "{print \$3}")
+# remove dangling volumes
+docker volume rm `docker volume ls -q -f dangling=true`
 ```
